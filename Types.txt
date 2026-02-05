@@ -1,0 +1,5 @@
+ML
+-> Supervised
+     -> Regression , Classification
+-> Unsupervised
+     -> Clustering , Anomaly Detection, Dimensionality reduction

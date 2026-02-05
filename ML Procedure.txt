@@ -1,0 +1,15 @@
+Define the problem
+Data Collection - Gathering 
+Data Pre processing
+Choosing a model
+Splitting the data intro train, test
+Evaluating the model
+Hyperparameter tuning
+Cross validatin ( training + testing )
+model finalisation
+Deploy the model - MLOps
+Retest, update, versioning
+
+Mischelaldnaskdqld
+pandas numpy matplotlib seaborn scipy scikit-learn jupyter openpyxl plotly
+A generalized model is basically a model that doesn’t just memorize its training data, but learns patterns that work well on new, unseen data

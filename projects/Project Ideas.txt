@@ -1,0 +1,4 @@
+spam filtering
+speech recognition
+machine translation
+online advertising ---------- ad, user info -> click? (0/1)
