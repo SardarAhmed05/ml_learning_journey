@@ -1,0 +1,52 @@
+📝 Step-by-Step Order for Preprocessing a Dataset
+
+1. **Understand the Dataset (EDA)**
+
+   * Look at columns, data types, and target variable.
+   * Check for missing values and data distribution.
+   * Identify numerical vs categorical features.
+
+2. **Data Cleaning**
+
+   * Handle missing values (drop or impute).
+   * Fix data types (e.g., numbers stored as strings).
+   * Correct inconsistencies (e.g., “Male” vs “male”).
+
+3. **Data Integration** *(if multiple sources)*
+
+   * Merge datasets if needed.
+   * Ensure no duplicate or conflicting rows.
+
+4. **Outlier Detection / Handling** *(part of cleaning but sometimes separate)*
+
+   * Identify outliers using Z-score, IQR, or visualizations.
+   * Decide whether to remove or transform them.
+
+5. **Feature Transformation**
+
+   * Scaling (StandardScaler, MinMaxScaler, etc.)
+   * Log or Box-Cox transforms if data is skewed
+   * Normalization if needed
+
+6. **Encoding Categorical Variables**
+
+   * Label encoding for ordinal features
+   * One-hot encoding for nominal features
+
+7. **Discretization (Optional)**
+
+   * Convert continuous variables to bins if needed (like age groups)
+
+8. **Feature Selection / Reduction** *(you’ll do this later)*
+
+   * PCA, variance threshold, correlation, etc.
+
+9. **Split Data into Features and Target**
+
+   * X = features, y = target
+   * Split into training and testing sets (train_test_split)
+
+10. **Modeling** *(after all preprocessing is done)*
+
+    * Start with simple models: Linear/Logistic Regression, KNN
+    * Evaluate with accuracy, RMSE, or other metrics
