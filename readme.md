@@ -11,8 +11,6 @@ This repository is intended for learning and practicing Machine Learning. It con
 * Datasets and small projects for practice
 * Explorations in Data Science techniques
 
-This repo is **private** for now, as it is a work in progress.
-
 ## 🛠 Technologies & Tools
 
 * **Languages:** Python
